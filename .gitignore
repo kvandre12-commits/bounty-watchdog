@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Test/lint caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Secrets / local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# Generated Watchdog data
+outputs/
+
+# OS/editor junk
+.DS_Store
+*.swp
+*.tmp
